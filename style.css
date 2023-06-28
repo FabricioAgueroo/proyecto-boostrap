@@ -1,0 +1,42 @@
+.portada{
+    background-image: url(./imagenes/Finca-Las-Nubes-Cafayate-scaled.jpg);
+    height: 900px;
+    object-fit: cover;
+   
+}
+
+.navbar-scroll {
+    background-color: #f7e6e6; /* Cambia el color de fondo deseado */
+    transition: background-color 0.3s ease-in-out; /* Agrega una transición suave */
+  }
+  
+
+.section-orange{
+    background-color: #ffbb6e;
+}
+
+.zoom-effect {
+    overflow: hidden;
+    transition: transform 4s;
+    
+  }
+  
+  .zoom-effect:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  
+  .prueba{
+    color: red;
+    background-color: aqua;
+  }
+  .card-title{
+    margin-top: 20%;
+  }
+  .card-title2{
+    margin-top: 30%;
+  }
+  svg{
+    width: 200%;
+    height: 200%;
+  }
